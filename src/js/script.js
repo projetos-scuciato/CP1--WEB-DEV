@@ -73,3 +73,19 @@ if (usuario == "admin" && senha == 1234){
 } else {
     console.log("Houve falha na autenticação!");
 }
+
+// Exercicio 6
+let nota1 = prompt("Insira a primera nota: ")
+let nota2 = prompt("Insira a segunda nota: ")
+let nota3 = prompt("Insira a terceira nota: ")
+let nota4 = prompt("Insira a quarta nota: ")
+let nota5 = prompt("Insira a quinta nota: ")
+let nota6 = prompt("Insira a sexta nota: ")
+let nota7 = prompt("Insira a setima nota: ")
+let mediaNotas = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7)/7;
+
+if (mediaNotas >= 6){
+    console.log("Aprovado!");
+} else{
+    console.log("Reprovado!");
+}
