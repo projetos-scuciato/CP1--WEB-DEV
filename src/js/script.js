@@ -38,3 +38,22 @@ if (valor1 >= valor2){
 }
 
 // ----------------------------------
+// Exercicio 3
+
+let peso = prompt("Qual o seu peso em KG?");
+let altura = prompt("Qual a sua altura em Metros?");
+let imc = peso/(altura*altura);
+
+switch (true) {
+   case imc < 18.5:
+     console.log(`Seu IMC é ${imc.toFixed(2)} Você está abaixo do peso.`);
+     break;
+   case imc >= 18.5 && imc <= 24.9:
+     console.log(`Seu IMC é ${imc.toFixed(2)} Você está no peso ideal.`);
+     break;
+   case imc > 24.9:
+     console.log(`Seu IMC é ${imc.toFixed(2)} Você está acima do peso.`);
+     break;
+   default:
+     console.log("IMC inválido.");
+ }
