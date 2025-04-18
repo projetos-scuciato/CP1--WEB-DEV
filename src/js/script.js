@@ -120,3 +120,8 @@ console.log("1) Primeira posição de 'em':", posicaoEm); //Ira exebir a primeir
 console.log("2) Última posição de 'ia':", posicaoIa); //Ira exebir a ultima posição de ia, que foi guardada na varialvel (posicaoIa).
 console.log("3) Palavra 'ciência' encontrada?", contemCiencia); //Ira exebir a primeira posição da palavra ciência, que foi guardada na varialvel (contemCiencia).
 console.log("4) Palavra 'métodos' encontrada?", contemMetodos); //Ira exebir a primeira posição da palavra métodos, que foi guardada na varialvel (contemMetodos).
+
+// Exercicio 9
+let numString = parseFloat("100"); //declara uma variavel e insere um valor como string e transforma esse valor para float com a função parseFloat.
+console.log(numString); //Mostra no console o valor de numString
+console.log(typeof numString);  //Mostra no console qual o tipo da variavel numString.
