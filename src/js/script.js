@@ -57,3 +57,8 @@ switch (true) {
    default:
      console.log("IMC inválido.");
  }
+ 
+// Exercicio 4
+for(i=0; i < 51; i++){
+  console.log(`O valor é: ${i}!`);
+}
