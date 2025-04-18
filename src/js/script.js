@@ -89,3 +89,16 @@ if (mediaNotas >= 6){
 } else{
     console.log("Reprovado!");
 }
+
+// Exercicio 7 
+let nome = "Gabriel";
+let idade = 18;
+let curso = "Engenheiro de Software primeiro ano"
+
+
+let titulo1 = document.querySelector("#nome1"); //função para pegar a variavel que eu quero editar (h1) no hmtl.
+titulo1.innerHTML = (nome); //função para editar a variavel.
+let titulo2 = document.querySelector("#idade1"); //função para pegar a variavel que eu quero editar (h1) no hmtl.
+titulo2.innerHTML = (idade); //função para editar a variavel.
+let titulo3 = document.querySelector("#curso1"); //função para pegar a variavel que eu quero editar (h1) no hmtl.
+titulo3.innerHTML = (curso); //função para editar a variavel.
