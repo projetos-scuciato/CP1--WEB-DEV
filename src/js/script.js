@@ -57,8 +57,19 @@ switch (true) {
    default:
      console.log("IMC inválido.");
  }
- 
+
 // Exercicio 4
 for(i=0; i < 51; i++){
   console.log(`O valor é: ${i}!`);
+}
+
+// Exercicio 5
+let usuario = prompt("Insira o nome de usuário: ");
+let senha = prompt("Insira a senha: ");
+
+
+if (usuario == "admin" && senha == 1234){
+    console.log("Login realizado com sucesso!");
+} else {
+    console.log("Houve falha na autenticação!");
 }
